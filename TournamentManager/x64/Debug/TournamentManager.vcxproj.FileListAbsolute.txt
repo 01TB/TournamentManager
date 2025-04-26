@@ -1,0 +1,3 @@
+D:\Dossier Tsitohaina\ITU\L2\Programmation\C++\TournamentManager\TournamentManager\x64\Debug\TournamentManager.vcxproj.AssemblyReference.cache
+D:\Dossier Tsitohaina\ITU\L2\Programmation\C++\TournamentManager\TournamentManager\x64\Debug\TournamentManager.MainForm.resources
+D:\Dossier Tsitohaina\ITU\L2\Programmation\C++\TournamentManager\TournamentManager\x64\Debug\TournamentManager.vcxproj.GenerateResource.cache
