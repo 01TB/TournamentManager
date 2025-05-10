@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{76E592B8-0B6B-CCB7-89D5-6EE46589AE67}|TournamentManager\\TournamentManager.vcxproj|solutionrelative:TournamentManager\\MainForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{76E592B8-0B6B-CCB7-89D5-6EE46589AE67}|TournamentManager\\TournamentManager.vcxproj|D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\DataStructures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{76E592B8-0B6B-CCB7-89D5-6EE46589AE67}|TournamentManager\\TournamentManager.vcxproj|solutionrelative:TournamentManager\\DataStructures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76E592B8-0B6B-CCB7-89D5-6EE46589AE67}|TournamentManager\\TournamentManager.vcxproj|D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{76E592B8-0B6B-CCB7-89D5-6EE46589AE67}|TournamentManager\\TournamentManager.vcxproj|solutionrelative:TournamentManager\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,20 +25,21 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 410,
+          "DockedHeight": 524,
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainForm.h [Design]",
+              "Title": "MainForm.h",
               "DocumentMoniker": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.h",
               "RelativeDocumentMoniker": "TournamentManager\\MainForm.h",
-              "ToolTip": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.h [Design]",
-              "RelativeToolTip": "TournamentManager\\MainForm.h [Design]",
+              "ToolTip": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.h",
+              "RelativeToolTip": "TournamentManager\\MainForm.h",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwIQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T18:53:30.801Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-24T09:54:52.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +49,7 @@
               "RelativeDocumentMoniker": "TournamentManager\\MainForm.cpp",
               "ToolTip": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.cpp",
               "RelativeToolTip": "TournamentManager\\MainForm.cpp",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAqwLwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkDAAAAAAAAAAAmwBkDAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-24T10:03:51.582Z",
               "EditorCaption": ""
@@ -52,25 +57,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainForm.h",
+              "Title": "DataStructures.h",
+              "DocumentMoniker": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\DataStructures.h",
+              "RelativeDocumentMoniker": "TournamentManager\\DataStructures.h",
+              "ToolTip": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\DataStructures.h",
+              "RelativeToolTip": "TournamentManager\\DataStructures.h",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T11:12:38.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.h [Design]",
               "DocumentMoniker": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.h",
               "RelativeDocumentMoniker": "TournamentManager\\MainForm.h",
-              "ToolTip": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.h",
-              "RelativeToolTip": "TournamentManager\\MainForm.h",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAUwIMAAAAhAAAAAAAAAA==",
+              "ToolTip": "D:\\Dossier Tsitohaina\\ITU\\L2\\Programmation\\C\u002B\u002B\\TournamentManager\\TournamentManager\\MainForm.h [Design]",
+              "RelativeToolTip": "TournamentManager\\MainForm.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T09:54:52.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T12:02:06.51Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },
         {
-          "DockedHeight": 245,
+          "DockedHeight": 257,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 32,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
             }
           ]
         }

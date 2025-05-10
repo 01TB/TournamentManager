@@ -1,9 +1,5 @@
+// --- START OF FILE DataStructures.h ---
 #pragma once // Prevents the header from being included multiple times
-
-// Include standard libraries if you plan to mix later (optional for current structure)
-// #include <string>
-// #include <vector>
-// #include <algorithm>
 
 // Include necessary .NET namespaces for C++/CLI types used below
 using namespace System;
@@ -15,9 +11,15 @@ public ref struct Player {
     String^ id;         // Player ID (e.g., "A1", "B3")
     double timeInSeconds; // Store time as total seconds for easy comparison (e.g., 1:57.97 -> 117.97)
     String^ formattedTime; // Store the original formatted time for display (e.g., "01:57.97")
+    bool isDisqualified; // Flag for disqualification status
 
-    // Constructor (optional but helpful)
-    Player(String^ _id) : id(_id), timeInSeconds(Double::MaxValue), formattedTime("N/A") {} // Initialize with invalid time
+    // Constructor
+    Player(String^ _id) : id(_id),
+        timeInSeconds(Double::MaxValue),
+        formattedTime("N/A"),
+        isDisqualified(false) // Initialize to false
+    {
+    }
 
     // Static comparison function for sorting List<Player^> (ascending time)
     static int ComparePlayersByTime(Player^ p1, Player^ p2) {
@@ -35,6 +37,16 @@ public ref struct Player {
             // Both times are valid, compare normally
             return p1->timeInSeconds.CompareTo(p2->timeInSeconds);
         }
+    }
+
+    // Static comparison function for sorting by ID (alphabetical)
+    static int ComparePlayersByID(Player^ p1, Player^ p2) {
+        // Handle nulls if necessary, though unlikely here
+        if (p1 == nullptr && p2 == nullptr) return 0;
+        if (p1 == nullptr) return -1; // Nulls first? Or last? Adjust as needed.
+        if (p2 == nullptr) return 1;
+        // Use String::Compare for case-sensitive comparison
+        return String::Compare(p1->id, p2->id);
     }
 };
 
@@ -93,3 +105,4 @@ static String^ FormatTime(double totalSeconds) {
     // Format with leading zeros: D2 for 2 digits, D3 for 3 digits
     return String::Format("{0:D2}:{1:D2}.{2:D3}", minutes, seconds, milliseconds);
 }
+// --- END OF FILE DataStructures.h ---

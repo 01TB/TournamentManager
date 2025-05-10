@@ -1,0 +1,108 @@
+Technology : C++
+IDE : Visual Studio
+Objective : Create a tournament management application with a Graphical User Interface(GUI)
+
+This is a tournament where the winner is the person with the fastest time -> The time will be in the format: minutes:seconds.millisecond (02:13.58 for example)
+We have 4 phases during the tournament : "Elimination", "1/4 (Quart de finale)", "1/2 (Demi finale)" and "Finale".
+
+How the 4 phases work : 
+    During the "Elimination" phase (at the beginning) :
+        - You have 4 groups -> from A to D (A,B,C,D)
+        - In each group, you have 4 players, so you have : 
+            - in A : A1,A2,A3,A4
+            - in B : B1,B2,B3,B4
+            - in C : C1,C2,C3,C4
+            - in D : D1,D2,D3,D4
+        - In each group, the 2 players with the best times move up to the next phase
+    During the "1/4 (Quart de finale)" phase (after "Elimination") : 
+        - The best of group A will play against the best of group B, and the best of group C will play against the best of group D
+            - For example:
+                In "Elimination", the best are : 
+                    Groupe A
+                        - A1: 01:57.97
+                        - A2: 01:59.79
+                    Groupe B
+                        - B3: 01:49.69
+                        - B4: 01:55.25
+                    Groupe C
+                        - C1: 01:59.89
+                        - C4: 02:02.67
+                    Groupe D
+                        - D2: 01:48.45
+                        - D3: 01:48.77
+                In "1/4 (Quart de finale)" we will have : 
+                    - A1 vs B3
+                    - A2 vs B4
+                    - C1 vs D2
+                    - C4 vs D3
+        - From this phase onwards, the best of each opposition moves up to the next phase
+            - If we take the previous example, we might have :
+                - A1 vs B3 -> B3 
+                - A2 vs B4 -> B4
+                - C1 vs D2 -> C1
+                - C4 vs D3 -> D3
+    During the "1/2 (Demi finale)" phase (after "1/4 (Quart de finale)") : 
+        - The winners of the first 2 matches of "1/4 (Quart de finale)" will face each other, and the winners of the last 2 matches of "1/4 (Quart de finale)" will face each other
+            - With our example, we would have : 
+                - B3 vs B4 -> B3
+                - C1 vs D3 -> C1
+    During the "Finale" phase, the last phase :
+        - The 2 winners of the last phase will face up
+        - The winner of the "Finale" will be 1st  
+        - The loser of the "Finale" will be 2nd  
+
+At the beginning of each phase : 
+    - Display an insertion form like the picture I gave you (makes it beautiful)
+    - Special features of the form :
+        - A validation button is placed next to each insertion line
+        - Once a line has been validated, it disappears
+        - You have to fill in the top lines before you can fill in the bottom lines
+
+At the end of each phase : 
+    "Elimination" phase :
+        - Show in the terminal (as an output) :
+            - Ranking within each group
+                - For example, in Group A:
+                        A4 (1er)
+                        A2 (2e)
+                        A3 (3e)
+                        A1 (4e)
+        - After that, suggest moving on to the next phase with a message box 
+    "1/4 (Quart de finale)" phase :
+        - Show in the terminal (as an output) :
+            - The winner of each confrontation :
+                - For example :
+                    - A1 vs B3 -> B3 
+                    - A2 vs B4 -> B4
+                    - C1 vs D2 -> C1
+                    - C4 vs D3 -> D3
+        - After that, suggest moving on to the next phase with a message box   
+    "1/2 (Demi finale)" phase :
+        - Show in the terminal (as an output) :
+            - The winner of each confrontation :
+                - For example :
+                    - B3 vs B4 -> B3
+                    - C1 vs D3 -> C1
+        - After that, suggest moving on to the next phase with a message box   
+    "Finale" phase :
+        - Show in the terminal (as an output) :
+            - The winner of the final confrontation : 
+                - For example :
+                    - B3 vs C1 -> C1
+            - Overall tournament standings :
+                - For example : 
+                    1er : C1
+                    2e : B3
+                    (...) For the rest of the ranking, their rank will be based on their last time at the level of the last phase in which they were 
+                        - For example, in "1/2 (Demi finale)" phase if B4 has 01:45.33 and D3 has 01:48.25 :
+                            - 3e : B4
+                            - 4e : D3
+                    Particularity of this ranking, if players have an identical time, then their rank will be the same :
+                        - For example, in "1/2 (Demi finale)" phase if B4 has 01:47.29 and D3 has 01:47.29 :
+                            - 3e : B4
+                            - 4e : D3
+        - After that, show a message box wich says that the tournament is finished, and save in a .txt file : 
+            - The Overall tournament standings 
+            - The results in each of the phases 
+
+Explain me step by step with details to make this project complete.

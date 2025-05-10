@@ -20,8 +20,10 @@ Class Player: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     System.String id : Public
     Double timeInSeconds : Public
     System.String formattedTime : Public
+    Boolean isDisqualified : Public
   Methods:
     ComparePlayersByTime(Player, Player): PrivateScope, Public, Static, HideBySig
+    ComparePlayersByID(Player, Player): PrivateScope, Public, Static, HideBySig
 Class TournamentManager.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

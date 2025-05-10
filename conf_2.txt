@@ -1,0 +1,10 @@
+Add a new feature : 
+    - The “Temps minimum” concept: during the “Elimination” phase only, players with a time equal to or greater than this minimum time will be directly disqualified
+    - We add this "Temps minimum" in an input, like a player's simple input of time
+    - The input of "Temps minimum" should be after all phases
+    - This concept has to impact the overall ranking : the disqualified should not be in the overall ranking
+Now we have a new concept of "Disqualified", during the “Elimination” phase, if a player has been eliminated by the "Temps minimum", he can no longer compete and will be added to the list of "Disqualified".
+In the output of the last phase in the terminal, after adding the "Temps minimum", there should be a list of "Disqualified". The list of "Disqualified" should also be saved in the .txt file 
+
+
+
